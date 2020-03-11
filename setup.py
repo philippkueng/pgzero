@@ -8,7 +8,7 @@ with io.open(path, encoding='utf8') as f:
     LONG_DESCRIPTION = f.read()
 
 install_requires = [
-    'pygame>=1.9.2, <2.0',
+    'pygame @ git+https://github.com/pygame/pygame.git@master#egg=pygame',
     'numpy',
 ]
 
