@@ -1,2 +1,2 @@
-pygame
+git+https://github.com/pygame/pygame.git@master#egg=pygame
 numpy
